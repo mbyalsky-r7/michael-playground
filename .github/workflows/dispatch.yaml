@@ -16,3 +16,4 @@ jobs:
       - name: Test
         run: |-
           echo "${{ github.event.inputs.branch || 'master' }}"
+          echo "${{ workflow.inputs }}"
