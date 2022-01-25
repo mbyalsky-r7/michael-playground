@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Test
         run: |-
-          echo "${{ github.event.inputs.branch }}
+          echo "${{ github.event.inputs.branch }}"
